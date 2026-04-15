@@ -1,0 +1,3 @@
+"0","ggplot(trace_df, aes(x = iter, y = mu2, color = chain)) +"
+"0","  geom_line(alpha = 0.7) +"
+"0","  labs(title = expression(""Trace plot for "" * mu[2]), y = expression(mu[2]))"

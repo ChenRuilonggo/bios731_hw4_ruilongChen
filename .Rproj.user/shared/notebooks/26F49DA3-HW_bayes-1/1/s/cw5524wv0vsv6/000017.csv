@@ -1,0 +1,8 @@
+"0",""
+"0","time_tbl <- tibble("
+"0","  Method = c(""Gibbs"", ""VB""),"
+"0","  User_Time = c(time_gibbs[""user.self""], time_vb[""user.self""]),"
+"0","  Elapsed_Time = c(time_gibbs[""elapsed""], time_vb[""elapsed""])"
+"0",")"
+"0",""
+"0","time_tbl"

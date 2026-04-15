@@ -1,0 +1,7 @@
+"0","comparison_tbl <- tibble("
+"0","  Method = c(""Gibbs"", ""Gibbs"", ""VB"", ""VB""),"
+"0","  Component = c(1, 2, 1, 2),"
+"0","  Estimate = c(fit_gibbs$mu_post_mean, fit_vb$m)"
+"0",")"
+"0",""
+"0","comparison_tbl"
