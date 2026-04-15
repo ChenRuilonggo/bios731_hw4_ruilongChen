@@ -18,6 +18,8 @@ execute:
 library(tidyverse)
 ```
 
+[GitHub Link](https://github.com/ChenRuilonggo/bios731_hw4_ruilongChen/tree/main)
+
 ## Context and learning objectives
 
 This assignment reinforces ideas in the **Bayesian Computing** and **Cluster Computing** modules. We focus specifically on implementing a Bayesian K-Mixture Model using Gibb's sampling and variational inference.
@@ -1162,4 +1164,3 @@ time_summary
 Across all sample sizes, variational Bayes (VB) produced highly accurate point estimates with negligible bias for all mixture components, and the bias decreased further as the sample size increased. In contrast, Gibbs sampling showed noticeably larger bias for some components, especially for the component with true mean 10, where the bias remained positive across all sample sizes. Despite this, both methods generally estimated the extreme components ((\mu=0) and (\mu=20)) reasonably well. Overall, VB provided more stable point estimation performance across simulation settings.
 
 In terms of uncertainty quantification, both methods achieved coverage rates reasonably close to the nominal 95% level, although coverage tended to be slightly below 95%, especially for larger sample sizes. Gibbs sampling had somewhat more variable coverage across components, while VB showed slightly more consistent performance. Computationally, VB was substantially faster than Gibbs sampling in every scenario. For example, at (n=10000), the average runtime for VB was about 1.76 seconds, compared with over 2259 seconds for Gibbs sampling. These results suggest that VB provides a much more computationally efficient alternative while maintaining competitive estimation accuracy and interval coverage in this setting.
-
